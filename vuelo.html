@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vuelo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="css/media/logos/Volaris-logo.jpg" alt="">
+    </header>
+        <form action="pago.html"  id="pat">
+            <h2>Comprar boleto de avion</h2>
+            <label>Dia de salida</label>
+            <input type="date" name="ds" id="ds">
+            <label>Dia de regreso</label>
+            <input type="date" name="dr" id="dr">
+            <hr>
+            <center>
+                <legend>Asiento</legend>
+                <input type="text" name="sit" id="sit">
+                <legend>Clase y costo del boleto</legend>
+                <select name="costo" id="costo">
+                    <option value="economica">clase economica $3,000</option>
+                    <option value="turista">clase turista $4,570</option>
+                    <option value="primera"> primera clase $10,000</option>
+                </select>
+                <legend>Destino de viaje</legend>
+                <input type="text" name="dest" id="dest">
+                <br>
+                <input type="submit" value="Comprar" class="bt">
+            </center>
+            
+        </form>
+        <img src="css/media/tablas/vuelo.png" alt="" id="tabla">
+    <footer id="pie">
+       <h3 style="text-align: center;">Martin Gabriel Cobos Trevino 2023©</h3>
+    </footer>
+</body>
+</html>

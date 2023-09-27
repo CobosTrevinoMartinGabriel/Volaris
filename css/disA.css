@@ -1,0 +1,189 @@
+body{
+    margin: 0%;
+    min-width:98vw;
+    min-height: 133vh;
+    background-color: rgb(83, 0, 72);
+    position: relative;
+}
+
+header{
+    display: flex;
+    background-color: rgb(249, 249, 249);
+   /*  position: absolute;
+    top: 0%; */
+
+    vertical-align: middle;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 5px 2px black;
+}
+
+.ses{
+    position: absolute;
+    margin-right: 10px;
+    height: 45px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px solid cornflowerblue;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.ses:hover{
+    border-color: magenta;
+    transition: 0.5s;
+}
+#login{
+    right:6% ;
+}
+#regis{
+    background-color: cornflowerblue;
+    right:10px;
+}
+#regis a{
+    text-decoration: none;
+}
+#menu{
+    display: flex;
+    height:fit-content;
+    background-color: rgb(176, 176, 176);
+    align-items: center;
+    font-family: inherit;
+    font-size: 28px;
+    padding: 0;
+    background-image: url(metalTexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#menu li{
+    border-left: 2px solid rgb(226, 226, 226);
+    border-right: 2px solid rgb(226, 226,226);
+
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+#menu li:hover{
+    background-color: rgb(158, 253, 253);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#pie{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(43, 43, 43);
+    color: rgb(143, 143, 143);
+    width: 100%;
+    height: 60px;
+}
+
+#body{
+    align-items: center;
+    margin: 10px;
+    margin-left: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+/*************slider*************/
+.slider{
+    margin-left: 20px;
+    background-image: url(media/promociones/aire.jpg);
+    animation: ia 50s infinite ;
+    width: 500px;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes ia {
+    9%{
+        background-image: url(media/promociones/aire.jpg);
+    }
+    18%{
+        background-image: url(media/promociones/aniversario.jpg);
+    }
+    27%{
+        background-image: url(media/promociones/kids.jpg);
+    }
+    36%{
+        background-image: url(media/promociones/volaris-promociones-vuelos-enero-2020.jpg);
+    }
+    45%{
+        background-image: url(media/promociones/citibanamex.jpg);
+    }
+    54%{
+        background-image: url(media/promociones/cupon.jpg);
+    }
+    63%{
+        background-image: url(media/promociones/noferta.jpg);
+    }
+    72%{
+        background-image: url(media/promociones/playaDeseo.jpg);
+    }
+    81%{
+        background-image: url(media/promociones/yavas.jpg);
+    }
+    90%{
+        background-image: url(media/promociones/viaje.jpg);
+    }
+    99%{
+        background-image: url(media/promociones/aire.jpg);
+    }
+}
+/***/
+#pago{
+    border-radius:10px;
+    margin: 10px;
+    background-color: rgb(201, 201, 201);
+    width: 95vw;
+    position: absolute;
+    left: 25px;
+    
+}
+
+.sect{
+    background-color: rgb(233, 179, 255);
+    position: absolute;
+    height: fit-content;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    bottom: 6%;
+}
+.sect a{
+    text-decoration: none;
+    color:antiquewhite
+}
+
+#maleta{
+    left: 5%;
+}
+#avion{
+    left: 35%;
+}
+#empleado{
+    left: 65%;
+}
+.bt{
+    
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    border: 0ch solid transparent;
+    transition: 0.5s;
+}
+.bt:hover{
+    transition: 0.5s;
+    background-color: yellow;
+}

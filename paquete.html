@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paquete.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="css/media/logos/Volaris-logo.jpg" alt="">
+    </header>
+    <form action="pago.html"  id="pat">
+        <h2>Comprar paquete vacacional</h2>
+        <label>Duracion(dias)</label>
+        <input type="text" name="ds" id="ds">
+        <hr>
+        <center>
+            <legend>Nombre de hotel</legend>
+            <input type="text" name="sit" id="sit" placeholder="Ej. Mayan palace">
+            <legend> costo del paquete</legend>
+            <select name="costo" id="costo">
+                <option value="economica">experiencia normal  $3,000</option>
+                <option value="turista">experiencia VIP $19,080</option>
+                <option value="primera">experiencia Platinum $30,000</option>
+            </select>
+            <legend>Numero de habitaciones</legend>
+            <input type="number" name="room" id="room">
+            <legend>Numero de personas que van a viajar</legend>
+            <input type="number" name="per" id="per">
+            <br>
+            <input type="submit" value="Comprar" class="bt">
+        </center>
+        
+    </form>
+    <img src="css/media/tablas/paquete.png" alt="" id="tabla">
+    <footer id="pie">
+       <h3 style="text-align: center;">Martin Gabriel Cobos Trevino 2023©</h3>
+    </footer>
+</body>
+</html>

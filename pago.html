@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pago.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="css/media/logos/Volaris-logo.jpg" alt="">
+    </header>
+    <div >
+        <form action="index.html" id="regis">
+            <img src="css/media/iconos/user.png" alt="" width="75" height="75">
+                <div>
+                    <legend>Escribe tu id de cliente</legend>
+                    <input type="text" name="idc" id="idc" placeholder="ej. Martin Gabriel">
+                    <legend>Ingresa el metodo de pago</legend>
+                    <select name="pago" id="pago">
+                        <option value="economica">Tarjeta credito</option>
+                        <option value="turista">tarjeta debito</option>
+                        <option value="primera">efectivo</option>
+                    </select>
+                    
+                    <legend>Ingresa el id de tu paquete, o de tu vuelo</legend>
+                    <input type="text" name="idv" id="idv" placeholder="ej. 202">
+                </div>
+                <input type="submit" id="sub" value="Registrarse">
+        </form>
+    </div>
+    <img src="css/media/tablas/pago.png" alt="" id="tabla">
+    <footer id="pie">
+       <h3 style="text-align: center;">Martin Gabriel Cobos Trevino 2023©</h3>
+    </footer>
+</body>
+</html>
